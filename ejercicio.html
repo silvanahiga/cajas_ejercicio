@@ -1,0 +1,112 @@
+<html>
+<head>
+    <style>
+    * {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+ b {
+  display: block;
+}
+
+.container {
+  position: relative;
+}
+
+.border {
+  border: 3px solid;  
+}
+.border.block1 {
+  
+  right: 100px;
+  margin-top: 40px;
+}
+.border.block2 {
+  position: fixed;
+  bottom: 0px;
+}
+.border.block3 {
+  position: fixed;
+  height: 100px;
+  
+  
+}
+
+
+p {
+  background: grey;
+  position: relative;
+  margin-left: 700px;
+}
+
+
+.parrafo1 {
+  background: red;
+  width: 50%;
+  float: left;
+  height: 300px;
+  padding: 0px; 
+}
+
+  
+.parrafo2 {
+  background: grey;
+  float: right;
+  width: 50%;
+  padding: 0px;
+  height: 300px;
+  
+}
+  
+  
+  
+</style>
+
+      
+</head>
+<body>
+
+
+<!-- Pueden usar float, display o position para cumplir con los objetivos. Intenten hacerlo SIN agregar otros selectores. 
+ -->
+
+ <div class="container">
+        <div class="border block1">
+          <b>Posicionar este div a 40px del borde de arriba de la pantalla...<br/>
+          ...y a 100px de la derecha.</b>
+        </div>
+      
+        <div class="border block2">
+          <b>Posicionar este div para que siempre esté en el fondo de la pantalla.</b>
+        </div>
+        <div class="border block3">
+          <b>Posicionar este dive para que siempre esté a 100px de la pantalla, incluso cuando el usuarie scrollee por la página. ¡Incluso mientras scrollea!</b>
+          
+        </div>
+        <div class="border block4">
+          <b> Primero, hacer un párrafo *dentro* de este div, y luego posicionar ese párrafo para que quede en el fondo derecho de este div.
+          </b>
+          <p>holaaaaa</p>
+        </div>
+      
+        <div class="border block5">
+          <b>Hacer que los dos divs de 'dummy text' en este bloque queden uno al lado del otro, con igual altura y ancho. Asegurarse que el texto de ambos divs está alineado arriba de todo.</b>
+          <div class= "parrafo1">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+            sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          </div>
+          <div class= "parrafo2">
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
+            eum fugiat quo voluptas nulla pariatur?
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

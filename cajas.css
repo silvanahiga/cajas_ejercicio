@@ -1,0 +1,35 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin: 0;
+  }
+   b {
+    display: block;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .border {
+    border: 3px solid;  
+  }
+  
+  .parrafo1 {
+    background: red;
+    width: 50%;
+    float: left;
+    height: 300px;
+    padding: 0px; 
+  }
+  
+    
+  .parrafo2 {
+    background: grey;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    height: 300px;
+    
+  }
+    
